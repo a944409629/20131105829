@@ -8,7 +8,8 @@
 
 import Foundation
 
-for var i in 1...10  {
+var i:Int
+for ( i=1; i<=10; i++)  {
     print("\(i)")
 }
 
