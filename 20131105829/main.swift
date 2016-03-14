@@ -8,30 +8,34 @@
 
 import Foundation
 
-var array = [10,20,12,35,7,67,24,133,5,98,]
+let possibleNumber = "123"
+var convertResult = Int(possibleNumber)
 
-print("排序前的值：")
+print(convertResult)
+convertResult.dynamicType
 
-for item in array
-{
-    var ii = item
-    print(ii)
-     }
+var x:Int?
+var address:String?
+var successRate:Double?
 
- for var i = 0; i < array.count - 1; ++i {
-     for var j = 0; j < array.count - 1 - i; ++j{
-         if array[j] > array[j + 1] {
-             var temp = array[j + 1]
-             array[j + 1] = array[j]
-             array[j] = temp
-             }
-         }
-     }
+var m = 10
 
- print("排序后的值：")
+if convertResult != nil{
+    print(convertResult!)
+}
 
- for item in array
- {
-     var ii = item
-     print(ii)
-     }
+if var number = convertResult{
+    let sum = number + 1
+    number++
+    print(number)
+    print(convertResult)
+}
+    
+else{
+    print("yzqzyzqyqzyqzqy")
+}
+
+var Str1:String! = "我是你爸爸"
+print(Str1)
+
+
